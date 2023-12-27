@@ -10,9 +10,9 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-#TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6529788493:AAGVic3JfsUmBHU_m243wR5ZSI7J5nVIsH4") #QTL Series
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6529788493:AAGVic3JfsUmBHU_m243wR5ZSI7J5nVIsH4") #QTL Series
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5780282761:AAG9vcgAVK__K1btiy212Ao-9E_rlpelADw") #Serials Tv
+#TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5780282761:AAG9vcgAVK__K1btiy212Ao-9E_rlpelADw") #Serials Tv
 
 #TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6961541840:AAFY396GaaVLnm1cWd_aRkD5UV7vk7olPrA") #Series Web
 
@@ -23,9 +23,9 @@ APP_ID = int(os.environ.get("APP_ID", "1923471"))
 API_HASH = os.environ.get("API_HASH", "fcdc178451cd234e63faefd38895c991")
 
 #Your db channel Id
-#CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002135785248")) #QTL Series 
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002135785248")) #QTL Series 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002117688872")) #Tv Serials 
+#CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002117688872")) #Tv Serials 
 
 #CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001773942005")) #Series Web
 
