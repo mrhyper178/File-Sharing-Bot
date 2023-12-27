@@ -10,7 +10,9 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5780282761:AAG9vcgAVK__K1btiy212Ao-9E_rlpelADw") #Serials Tv
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6529788493:AAGiErm8YKBL8aZaG_TDWByy9v6tNC9CwTE") #QTL Series
+
+#TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5780282761:AAG9vcgAVK__K1btiy212Ao-9E_rlpelADw") #Serials Tv
 
 #TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6961541840:AAFY396GaaVLnm1cWd_aRkD5UV7vk7olPrA") #Series Web
 
@@ -21,7 +23,9 @@ APP_ID = int(os.environ.get("APP_ID", "1923471"))
 API_HASH = os.environ.get("API_HASH", "fcdc178451cd234e63faefd38895c991")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002117688872")) #Tv Serials 
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001884285982")) #QTL Series 
+
+#CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002117688872")) #Tv Serials 
 
 #CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001773942005")) #Series Web
 
@@ -62,10 +66,11 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "🆔 @Quality_LinksZ 👈 Join Our Main Channel"
+USER_REPLY_TEXT = "🆔 @Tamilan_WebSeries 👈 Join Our Main Channel"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(1461155141)
+ADMINS.append(1109543851)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
