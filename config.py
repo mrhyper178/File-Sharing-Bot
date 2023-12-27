@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6529788493:AAGiErm8YKBL8aZaG_TDWByy9v6tNC9CwTE") #QTL Series
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6529788493:AAGVic3JfsUmBHU_m243wR5ZSI7J5nVIsH4") #QTL Series
 
 #TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5780282761:AAG9vcgAVK__K1btiy212Ao-9E_rlpelADw") #Serials Tv
 
